@@ -401,11 +401,11 @@ class Controls(QWidget):
         self.l1.addWidget(self.cobweb_box)
         self.cobweb_box.setChecked(0)
 
-        self.series_box = QtWidgets.QCheckBox("series plot", parent=self)
+        self.series_box = QtWidgets.QCheckBox("Series plot", parent=self)
         self.l1.addWidget(self.series_box)
         self.series_box.setChecked(1)
 
-        self.bifurc_box = QtWidgets.QCheckBox("bifurc Plot", parent=self)
+        self.bifurc_box = QtWidgets.QCheckBox("Sifurc Plot", parent=self)
         self.l1.addWidget(self.bifurc_box)
         self.bifurc_box.setChecked(1)
 
@@ -509,7 +509,7 @@ class Controls(QWidget):
 
         self.precision_label = QLabel(self)
         self.l6.addWidget(self.precision_label)
-        self.precision_label.setText("precision")
+        self.precision_label.setText("Precision")
 
         self.precision_box1 = QtWidgets.QRadioButton('0.01', parent=self)
         self.l6.addWidget(self.precision_box1)
@@ -619,7 +619,7 @@ class Widget(QWidget):
                                         labels={'left':"Population",
                                                 'bottom':"Time"}),
 
-                        self.win.addPlot(col=3, title="Equilibrium population vs rates",
+                        self.win.addPlot(col=3, title="Equilibrium population vs Rates",
                                         labels={'left':"Equilibrium Population",
                                                 'bottom':"Rates"}),
         ]
