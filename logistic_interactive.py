@@ -607,7 +607,7 @@ class Widget(QWidget):
 
         self.win = pg.GraphicsWindow()
 
-        self.setWindowTitle("Logistic Map visualisation")
+        self.setWindowTitle("Logistic map visualization")
         self.horizontalLayout.addWidget(self.win)
 
         self.plots = [
