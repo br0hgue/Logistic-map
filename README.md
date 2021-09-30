@@ -20,7 +20,7 @@ to sucessfully run this code you need to install some requirements
 
 ## Logistic Map - Interactive
 `python logistic_interactive.py`
-![Interactive](https://github.com/jonnyhyman/Chaos/blob/master/images/logistic-interactive.png?raw=true)
+![example](https://github.com/brah-the-machine-phrog/Logistic-map/blob/master/example_image.png?raw=true)
 
 #### Shortcuts:
 - Spacebar: play/pause
