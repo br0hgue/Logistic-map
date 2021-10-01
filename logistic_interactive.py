@@ -405,7 +405,7 @@ class Controls(QWidget):
         self.l1.addWidget(self.series_box)
         self.series_box.setChecked(1)
 
-        self.bifurc_box = QtWidgets.QCheckBox("Sifurc Plot", parent=self)
+        self.bifurc_box = QtWidgets.QCheckBox("Bifurc Plot", parent=self)
         self.l1.addWidget(self.bifurc_box)
         self.bifurc_box.setChecked(1)
 
