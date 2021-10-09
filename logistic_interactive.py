@@ -24,7 +24,7 @@ import numpy as np
 
 from pathlib import Path
 import sys
-
+import math
 from time import time
 import types
 
@@ -152,7 +152,7 @@ def logistic_map(pop, rate):
         scalar result of logistic map at time t+1
     """
 
-    return pop * rate * (1 - pop)
+    return rate * pop * (1- pop)
 
 
 
